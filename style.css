@@ -1,0 +1,128 @@
+body {
+  background-color: #232830;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-top: 50px;
+}
+nav a {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 24px;
+  font-family: "Poppins";
+}
+nav div a {
+  margin-right: 20px;
+}
+nav > a {
+  margin-left: 20px;
+}
+header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  text-align: center;
+  height: 100vh;
+}
+
+header h1 {
+  color: #ff7575;
+  font-family: "Recursive";
+  font-weight: 400;
+  font-style: italic;
+  font-size: 72px;
+  margin: 0px;
+}
+header h2 {
+  font-family: "Poppins";
+  color: #ffffff;
+  font-weight: 400;
+}
+header img {
+  width: 30%;
+  margin: 0px;
+}
+.menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+  border-top: 2px solid #4d4d4d;
+}
+.menu a {
+  font-family: "Recursive";
+  font-weight: 400;
+  font-style: italic;
+  text-decoration: none;
+  margin: 10px;
+  color: #909090;
+}
+.news {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: center;
+}
+.sect1 {
+  display: flex;
+  justify-content: center;
+}
+.sect2 {
+  display: flex;
+  justify-content: center;
+}
+.sect3 {
+  display: flex;
+  justify-content: center;
+}
+.panel1,
+.panel2,
+.panel3 {
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffff;
+  border-radius: 5%;
+  width: 390px;
+  height: 439px;
+  margin: 20px;
+}
+h3 {
+  margin-top: 20px;
+  width: 337.07965087890625px;
+  height: 58px;
+  align-self: center;
+  margin-bottom: 0px;
+  font-weight: 600;
+  font-family: "Poppins";
+}
+.news img {
+  width: 337.07965087890625px;
+  height: 160px;
+  align-self: center;
+  margin: 20px;
+}
+.panelfoot {
+  display: flex;
+  justify-content: space-around;
+  width: 234.035400390625px;
+  height: 24px;
+  margin-left: 15px;
+}
+.news p {
+  width: 337.7256774902344px;
+  height: 72px;
+  align-self: center;
+  margin-top: 0px;
+  font-family: "Poppins";
+}
+.foot {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-content: flex-start;
+}
